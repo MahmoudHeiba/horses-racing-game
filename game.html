@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Horse Racing</title>
+    <link rel="stylesheet" href="game.css" />
+    <script src="game.js"></script>
+</head>
+
+<body>
+
+
+    <div class="right">
+
+
+        <div id="reset">
+            Reset Race
+        </div>
+
+        <div id="start">
+            Start Race
+        </div>
+
+        <div id="bet">
+            <p>You currently have <span id="funds">100</span></p>
+            <label>Bet Amount  (£)</label>
+            <input id="amount" />
+            <label>Bet on horse:</label>
+            <select id="bethorse">
+						<option value="horse1">White</option>
+						<option value="horse2">Blue</option>
+						<option value="horse3">Green</option>
+						<option value="horse4">Brown</option>
+					</select>
+        </div>
+
+        <img src="images/tree.png" class="tree" />
+
+
+
+        <table id="results">
+            <thead>
+                <tr>
+                    <th>Results</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>1st</td>
+                <td id="firstHorse" class="horse1"></td>
+            </tr>
+            <tr>
+                <td>2nd</td>
+                <td id="secondHorse" class="horse2"></td>
+            </tr>
+            <tr>
+                <td>3rd</td>
+                <td id="thirdHorse" class="horse3"></td>
+            </tr>
+            <tr>
+                <td>4th</td>
+                <td id="fourthHorse" class="horse4"></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div id="scroll">
+
+        <div class="track">
+
+
+            <div id="horse1" class="horse standDown">
+                <div class="rider">
+                    <div class="head">
+                    </div>
+
+                    <div class="body">
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="horse2" class="horse standDown">
+                <div class="rider">
+                    <div class="head">
+                    </div>
+
+                    <div class="body">
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="horse3" class="horse standDown">
+                <div class="rider">
+                    <div class="head">
+                    </div>
+
+                    <div class="body">
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="horse4" class="horse standDown">
+                <div class="rider">
+                    <div class="head">
+                    </div>
+
+                    <div class="body">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="bush jump1"></div>
+            <div class="bush jump2"></div>
+            <div class="bush jump3"></div>
+            <div class="bush jump4"></div>
+            <div class="bush jump5"></div>
+            <div class="bush jump6"></div>
+            <div id="finishline">
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
